@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Saurav Kumar</h1>
 <h3 align="center">Proficient in HTML, CSS, JavaScript, C++</h3>
 
-<img align="center" alt="Coding" width="100%" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTBmNDJiZG9xdGRvejcxZGhzczZndmxjYTlyZHBkcWd2amNxN2ptZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2QDVa0zcrV4zj904/giphy.gif">
+<img align="center" alt="Coding" width="100%" src="https://i.pinimg.com/originals/b7/bc/3a/b7bc3ab00630af37012ac4686abd7f52.gif">
 
 - 🔭 I’m currently working on [motoko-banking-app](https://github.com/the-sauravkumar/motoko-banking-app)
 
