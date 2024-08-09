@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **thesauravkumar@hotmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1Pbx3S6fPZuWX8ZQrig5yNQWopo21ANKw/view?usp=drive_link](https://drive.google.com/file/d/1Pbx3S6fPZuWX8ZQrig5yNQWopo21ANKw/view?usp=drive_link)
+- 📄 Know about my experiences [...here](https://drive.google.com/file/d/17ayp8aWQwaS8r013q9uu5LYy0sVODhdR/view?usp=drive_link)
 
 - ⚡ Fun fact **Your password complexity is like the secret recipe to a cyber security casserole - a tantalizing blend of characters and symbols that even hackers would struggle to digest!**
 
