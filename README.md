@@ -3,7 +3,7 @@
 
 <img align="center" alt="Coding" width="100%" src="https://i.pinimg.com/originals/b7/bc/3a/b7bc3ab00630af37012ac4686abd7f52.gif">
 
-- 🔭 I’m currently working on [motoko-banking-app](https://github.com/the-sauravkumar/motoko-banking-app)
+- 🔭 I’m currently working on [CurveShapeNet]([https://github.com/the-sauravkumar/motoko-banking-app](https://github.com/the-sauravkumar/CurveShapeNet))
 
 - 🌱 I’m currently learning **React**
 
