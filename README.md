@@ -9,7 +9,7 @@
 
 ### 🚀 About Me
 
-- 🔭 I’m currently working on [Recycle Reward System](https://github.com/the-sauravkumar/Recycle-Reward-System)
+- 🔭 I’m currently working on [CareerZenith](https://github.com/the-sauravkumar/CareerZenith)
 - 🌱 I’m currently exploring modern web development frameworks like Vue.js, React to build dynamic and responsive web applications.
 - 👨‍💻 All of my projects are available at [github.com/the-sauravkumar](https://github.com/the-sauravkumar)
 - 💬 Ask me about **C, C++**
