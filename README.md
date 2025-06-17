@@ -14,7 +14,7 @@
 - 👨‍💻 All of my projects are available at [github.com/the-sauravkumar](https://github.com/the-sauravkumar)
 - 💬 Ask me about **C, C++**
 - 📫 How to reach me: **thesauravkumar@hotmail.com**
-- 📄 Know about my experiences [here](https://drive.google.com/file/d/1HaHq-Jl5kXebKc82nbY1fDtXgLLZuALL/view?usp=drive_link)
+- 📄 Know about my experiences [here](https://dev-fused.vercel.app/)
 - ⚡ Fun fact: **Your password complexity is like the secret recipe to a cybersecurity casserole—a tantalizing blend of characters and symbols that even hackers would struggle to digest!**
 
 ---
