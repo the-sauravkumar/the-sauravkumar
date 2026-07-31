@@ -1,12 +1,9 @@
 name: Generate GitHub Stats
 
 on:
-  # Runs automatically every day at midnight
   schedule:
     - cron: "0 0 * * *"
-  # Allows run the workflow manually from the Actions tab
   workflow_dispatch:
-  # Runs whenever the main branch updates
   push:
     branches: ["main"]
 
@@ -17,9 +14,7 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-         
           token: ${{ secrets.METRICS_TOKEN }}
-          
           filename: github-metrics.svg
           
           # Basic configuration
@@ -27,3 +22,15 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
+          
+          # 🈷️ Languages plugin
+          plugin_languages: yes
+          plugin_languages_ignored: html, css # Optional: Ignore markup/styling
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          
+          # 🏆 Achievements plugin (Acts like Trophies)
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C # Shows all achievements from C tier and up
