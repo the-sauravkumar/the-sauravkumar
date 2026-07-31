@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Saurav Kumar</h1>
-<h3 align="center">A Passionate Developer | Proficient in React, FastAPI, Motoko, C++</h3>
+<h3 align="center">A Passionate Developer | Proficient in .NET Web APIAs, SQL Server, React, C++</h3>
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/b7/bc/3a/b7bc3ab00630af37012ac4686abd7f52.gif" alt="Coding" width="100%"/>
