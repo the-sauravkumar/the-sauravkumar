@@ -1,0 +1,29 @@
+name: Generate GitHub Stats
+
+on:
+  # Runs automatically every day at midnight
+  schedule:
+    - cron: "0 0 * * *"
+  # Allows run the workflow manually from the Actions tab
+  workflow_dispatch:
+  # Runs whenever the main branch updates
+  push:
+    branches: ["main"]
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+         
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          filename: github-metrics.svg
+          
+          # Basic configuration
+          user: the-sauravkumar
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
