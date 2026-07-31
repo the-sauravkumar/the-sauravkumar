@@ -12,8 +12,8 @@
 - 🔭 I’m currently working on [ScaleStore](https://github.com/the-sauravkumar/ScaleStore)
 - 🌱 I’m currently exploring modern web development frameworks like Vue.js, React to build dynamic and responsive web applications.
 - 👨‍💻 All of my projects are available at [github.com/the-sauravkumar](https://github.com/the-sauravkumar)
-- 💬 Ask me about **C, C++**
-- 📫 How to reach me: **thesauravkumar@hotmail.com**
+- 💬 Ask me about **.NET Core Web APIs, SQL Server, C, C++**
+- 📫 How to reach me: **saurav.kumar.fintech@gmail.com**
 - 📄 Know about my experiences [here](https://dev-fused.vercel.app/)
 - ⚡ Fun fact: **Your password complexity is like the secret recipe to a cybersecurity casserole—a tantalizing blend of characters and symbols that even hackers would struggle to digest!**
 
