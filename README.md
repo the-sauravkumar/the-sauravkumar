@@ -19,23 +19,14 @@
 
 ---
 
-### 🏆 GitHub Trophies
+### 📊 GitHub Overview
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=the-sauravkumar&theme=algolia" alt="GitHub Trophies"/>
+  <img src="./github-metrics.svg" alt="GitHub Stats, Languages, and Achievements"/>
 </p>
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=the-sauravkumar&show_icons=true&theme=radical" alt="GitHub Stats"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-sauravkumar&layout=compact&theme=radical" alt="Top Languages"/>
-</p>
-
----
 
 ### 🌐 Connect with Me
 
