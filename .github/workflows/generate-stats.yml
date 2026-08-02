@@ -32,7 +32,4 @@ jobs:
           plugin_languages_limit: 8
           
           # 🏆 Achievements plugin (Acts like Trophies)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: no
-          plugin_achievements_threshold: C # Shows all achievements from C tier and up
+          plugin_achievements: no
