@@ -22,7 +22,15 @@
 ### 📊 GitHub Overview
 
 <p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Stats, Languages, and Achievements"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=the-sauravkumar&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-sauravkumar&layout=compact&theme=tokyonight" alt="Top Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=the-sauravkumar&theme=onedark&no-frame=true&row=1&column=7" alt="GitHub Achievements"/>
 </p>
 
 ---
