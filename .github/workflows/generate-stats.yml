@@ -10,6 +10,8 @@ on:
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
