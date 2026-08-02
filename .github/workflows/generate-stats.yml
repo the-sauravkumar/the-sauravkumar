@@ -14,7 +14,7 @@ jobs:
       contents: write
     steps:
       - name: Generate metrics
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@edcae0f
         with:
           # Prefer a PAT in METRICS_TOKEN (repo + read:user) for richer plugins.
           token: ${{ secrets.METRICS_TOKEN != '' && secrets.METRICS_TOKEN || github.token }}
