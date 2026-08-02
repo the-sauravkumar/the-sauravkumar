@@ -1,4 +1,4 @@
-name: Generate GitHub Stats
+name: Generate GitHub Profile Metrics
 
 on:
   schedule:
@@ -16,24 +16,49 @@ jobs:
       - name: Generate metrics
         uses: the-sauravkumar/metrics@master
         with:
-          # Prefer a PAT in METRICS_TOKEN (repo + read:user) for richer plugins.
+          # Uses your Personal Access Token for extended API access
           token: ${{ secrets.METRICS_TOKEN != '' && secrets.METRICS_TOKEN || github.token }}
           filename: github-metrics.svg
           
-          # Basic configuration
+          # Base Configuration
           user: the-sauravkumar
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           
-          # 🈷️ Languages plugin
+          # 🈷️ Languages Activity
+          # Displays your most used languages in a clean progress bar
           plugin_languages: yes
-          plugin_languages_ignored: html, css # Optional: Ignore markup/styling
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, shell
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           
-          # 🏆 Achievements plugin (Acts like Trophies)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: X # Also shows locked achievements so section is always visible
+          # 📅 Isometric Commit Calendar
+          # Replaces the flat 2D GitHub grid with a cool 3D skyline graph
+          plugin_isocalendar: yes
+          plugin_isocalendar_main: half
+          
+          # 👨‍💻 Lines of Code Tracking
+          # Shows the total amount of code you've written and deleted
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          
+          # 💡 Coding Habits & Activity
+          # Generates charts showing your most productive times of day and active days
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          
+          # 🎩 Notable Contributions
+          # Highlights Pull Requests and Commits you've made to popular external repositories
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_repositories: yes
+
+          # 🌟 Recently Starred
+          # Highlights 4 recently starred repositories to show your current tech interests
+          plugin_stars: yes
+          plugin_stars_limit: 4
